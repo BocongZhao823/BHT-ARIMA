@@ -6,8 +6,8 @@ import scipy as sp
 import numpy as np
 from tensorly.decomposition import tucker
 
-from .util.MDT import MDTWrapper
-from .util.functions import fit_ar_ma, svd_init
+from BHT_ARIMA.util.MDT import  MDTWrapper
+from BHT_ARIMA.util.functions import fit_ar_ma, svd_init
 
 
 class BHTARIMA(object):

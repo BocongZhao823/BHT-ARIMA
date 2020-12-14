@@ -1,1 +1,1 @@
-from .BHTARIMA import BHTARIMA
+from BHT_ARIMA.BHTARIMA import BHTARIMA

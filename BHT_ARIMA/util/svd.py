@@ -3,6 +3,7 @@ import scipy
 import numpy as np
 
 
+
 def svd_fun(matrix, n_eigenvecs=None):
     """Computes a fast partial SVD on `matrix`
     If `n_eigenvecs` is specified, sparse eigendecomposition is used on
@@ -67,3 +68,5 @@ def svd_fun(matrix, n_eigenvecs=None):
         U, S, V = U[:, ::-1], S[::-1], V[:, ::-1]
         V = V.T.conj()
     return U, S, V
+
+
